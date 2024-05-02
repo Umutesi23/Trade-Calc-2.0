@@ -43,7 +43,7 @@ const router = useRouter();
     },
   });
   async function onSubmit(data: z.infer<typeof formSchema>) {
-const singInData= await signIn("credentials", {email: data.email, password: data.password, redirect:true})
+const singInData= await signIn("credentials", {email: data.email, password: data.password, redirect:false})
 //change pages
 router.push("/tradeform")
 
