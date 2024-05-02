@@ -93,7 +93,7 @@ singInData?.error? console.log(singInData.error): router.push("/tradeform")
           <br></br>
           <br></br>
           <Link href="./signup">
-            <Button>I Don't Have an Account</Button>
+            <Button>Register</Button>
           </Link>
         </form>
       </Form>
