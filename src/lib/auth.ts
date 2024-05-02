@@ -40,7 +40,7 @@ signIn:"/login"
       if(!existingUser){
         return null;
       }
-        const passWordMatch =  await compare(credentials.password, existingUser.password); 
+        const passWordMatch =   compare(credentials.password, existingUser.password); 
         if (!passWordMatch) {return null}
 
         return{
